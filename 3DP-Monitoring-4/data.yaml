@@ -1,0 +1,15 @@
+names:
+- failure
+- stringing
+- under_extrusion
+- warping
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: 3dp-monitoring
+  url: https://universe.roboflow.com/tamg/3dp-monitoring/dataset/4
+  version: 4
+  workspace: tamg
+test: ../test/images
+train: 3DP-Monitoring-4/train/images
+val: 3DP-Monitoring-4/valid/images
